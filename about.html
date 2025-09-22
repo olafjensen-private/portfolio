@@ -1,0 +1,94 @@
+<!--
+    DDDD    EEEEE  SSSSS  III  GGGGG  N   N  EEEEE  DDDD        A    N   N  DDDD       CCCCC  OOO   DDDD   EEEEE  DDDD  
+    D   D   E      S       I   G      NN  N  E      D   D      A A   NN  N  D   D     C      O   O  D   D  E      D   D 
+    D   D   EEEE   SSSSS   I   G  GG  N N N  EEEE   D   D     AAAAA  N N N  D   D     C      O   O  D   D  EEEE   D   D 
+    D   D   E          S   I   G   G  N  NN  E      D   D     A   A  N  NN  D   D     C      O   O  D   D  E      D   D 
+    DDDD    EEEEE  SSSSS  III  GGGGG  N   N  EEEEE  DDDD      A   A  N   N  DDDD       CCCCC  OOO   DDDD   EEEEE  DDDD  
+                                             
+                         BBBBB   Y   Y      OOO   L        AAAAA   FFFFF    JJJJJ  EEEEE  N   N  SSSSS  EEEEE  N   N
+                         B   B    Y Y      O   O  L       A     A  F          J    E      NN  N  S      E      NN  N
+                         BBBBB     Y       O   O  L       AAAAAAA  FFFF       J    EEEE   N N N  SSSSS  EEEE   N N N
+                         B   B     Y       O   O  L       A     A  F          J    E      N  NN      S  E      N  NN
+                         BBBBB     Y        OOO   LLLLL   A     A  F      JJJJJ    EEEEE  N   N  SSSSS  EEEEE  N   N
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olaf Jensen | Portfolio | Homepage</title>
+    <link rel="stylesheet" href="CSS/fonts.css" />
+    <link rel="stylesheet" href="CSS/all.css" />
+    <link rel="stylesheet" href="CSS/about.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="IMG/logo.png" alt="" />
+
+        <!-- Burger menu button -->
+        <div class="burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Navigation -->
+        <nav id="nav-menu">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="about-header">
+        <h1>About <span>Olaf Jensen</span></h1>
+        <p>
+          Front-end developer & designer passionate about creating futuristic,
+          immersive digital experiences that leave a lasting impact.
+        </p>
+      </section>
+
+      <section class="about-section">
+        <img src="IMG/profile-picture.jpg" alt="Olaf Jensen Profile" />
+        <div class="about-text">
+          <h2>Who I Am</h2>
+          <p>
+            I am a front-end developer with a love for sleek, futuristic
+            designs. I enjoy creating websites that are not only visually
+            stunning but also highly interactive and user-friendly.
+          </p>
+        </div>
+      </section>
+
+      <section class="about-section">
+        <div class="about-text">
+          <h2>My Skills</h2>
+          <!-- Skills -->
+          <div class="skills" id="skills-container"></div>
+        </div>
+        <img src="IMG/coding-image.png" alt="Coding" />
+      </section>
+
+      <!-- Timeline -->
+      <section class="timeline" id="timeline-container"></section>
+
+      <section class="about-cta">
+        <a href="portfolio.html" class="btn">See My Work</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Olaf Jensen | All rights reserved</p>
+    </footer>
+    <div class="cursor"></div>
+    <script src="JS/main.js"></script>
+    <script src="JS/burger-menu.js"></script>
+    <script src="JS/cursor.js"></script>
+    <script src="JS/fetch-skills.js"></script>
+    <script src="JS/fetch-timeline.js"></script>
+  </body>
+</html>

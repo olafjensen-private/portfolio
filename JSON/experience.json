@@ -1,0 +1,16 @@
+{
+  "timeline": [
+    {
+      "role": "Freelance Web Developer",
+      "period": "2021 - Present",
+      "company": "Self-Employed",
+      "description": "Worked on interactive, futuristic web experiences and optimized performance across devices."
+    },
+    {
+      "role": "Freelance Web Designer",
+      "period": "2024 - present",
+      "company": "Self-Employed",
+      "description": "Designed and developed websites for clients focusing on unique, engaging UI/UX."
+    }
+  ]
+}

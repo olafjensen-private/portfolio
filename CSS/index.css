@@ -1,0 +1,68 @@
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-family: "Orbitron", sans-serif;
+  color: #00ffff;
+}
+
+.hero h1 span {
+  color: #1e90ff;
+}
+
+.hero p {
+  margin: 1rem 0 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+/* Call to Action */
+.cta {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #1a1a1a;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.cta h2 {
+  font-family: "Orbitron", sans-serif;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border: 2px solid #00ffff;
+  border-radius: 5px;
+  color: #00ffff;
+  font-family: "Orbitron", sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background: #00ffff;
+  color: #121212;
+}
+
+.link {
+  color: #1e90ff;
+  font-size: 1rem;
+}
+
+.link:hover {
+  color: #63b3ed;
+}
